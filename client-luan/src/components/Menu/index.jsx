@@ -79,13 +79,13 @@ export default function NavTabs() {
           <LinkTab label="Sair" href="/spam" {...a11yProps(2)} />
         </Tabs>
       </AppBar>
-      <TabPanel className='background-menu' value={value} index={0}>
+      <TabPanel value={value} index={0}>
         <Groups />
       </TabPanel>
-      <TabPanel className='background-menu' value={value} index={1}>
+      <TabPanel value={value} index={1}>
         PERFIL
       </TabPanel>
-      <TabPanel className='background-menu' value={value} index={2}>
+      <TabPanel value={value} index={2}>
         SAIR
       </TabPanel>
     </div>

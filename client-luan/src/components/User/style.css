@@ -1,8 +1,9 @@
 .main {
+    background: #00897b;
     color: #f2f2f2;
 }
 .user {
-    margin: 20px;
+    padding: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
